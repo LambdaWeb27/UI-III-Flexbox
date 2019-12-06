@@ -22,25 +22,31 @@ body {
 
 #main-header {
 	/* background-color:lightblue; */
-	padding-top:20px;
 	/* position:sticky;
 	top:0; */
+	padding-top:20px;
 	display:flex;
+	justify-content:space-between;
 }
 
 .nav-container {
-	width:79%;
+	width:69%;
 	display:flex;
+	justify-content: space-between;
 	margin-bottom:20px;
 }
 
 .nav-container a {
-	margin:15px 30px;
+	/* margin:15px 30px; */
 	text-decoration: none;
 }
 
 .logo-container {
-	width:19%;
+	width:29%;
+}
+
+.logo-container .logo {
+	padding-left:160px;
 }
 
 .intro {
@@ -107,7 +113,7 @@ button {
 	/* padding-top:20px; */
 }
 
-img {
+.middle-img {
 	width:100%;
 }
 
@@ -140,5 +146,54 @@ h1 {
 }
 /* Services Page */
 .services-header-img {
+	width:100%;
+}
+
+.services {
+	margin:20px 0 40px 0;
+	padding-bottom:30px;
+	border-bottom:1px solid black;
+}
+
+.digital-positions {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	margin:40px 0 25px 0;
+}
+
+.box{
+	border:1px solid black;
+	padding:20px;
+	background-color:lightgray;
+	width:45%;
+	margin:20px 0;
+}
+
+.btn {
+	margin-top:15px;
+}
+
+.facts {
+	margin:40px 0;
+	padding-top:30px;
+	border-top:1px solid black;
+	display:flex;
+	justify-content:space-between;
+}
+
+.facts div {
+	width:45%
+}
+
+.service-content ul{
+	margin-top:20px;
+}
+ .service-content ul li{
+ list-style-type: disc;
+ list-style-position: inside;
+}
+
+.services-info-img{
 	width:100%;
 }
